@@ -8,5 +8,5 @@ class QuoteTest < ActiveSupport::TestCase
      actual = quote.unique_tag
      assert_equal expected, actual
    end
-
+  
 end
